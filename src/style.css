@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    font-size: ;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    background-color: #2effea;
+}
+
+.add-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px 0px;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.form-content{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+form button{
+    padding: 5px 10px;
+    background-color: #78ff8c;
+    border: none;
+    cursor: pointer;
+}
+
+table{
+    width: 65%;
+}
+
+th, td {
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.features input{
+    height: 35px;
+}
+
+.features label{
+    font-size: 1rem;
+}
+
+.btn img{
+    background: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    padding: 3px 2.5px 0px;
+}
+
+.btn-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+table button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.edit, .delete{
+    width: 25px;
+    height: 25px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sorting-buttons{
+    display: flex;
+}
+
+.sorting-buttons button{
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 500px){
+    html, body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .nav{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .add-list{
+        justify-content: center;
+        gap: 0px;
+        margin: 40px 0px;
+        padding: 0px 10px;
+    }
+
+    .add-list form{
+        margin: 0px auto;
+    }
+
+    input{
+        width: 85%;
+    }
+
+    table{
+        margin: 20px 0px;
+    }
+
+    .form-content{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    table td{
+        font-size: 10px;
+    }
+
+    th{
+        font-size: 11px;
+    }
+
+    .edit, .delete{
+        width: 12.5px;
+        height: 12.5px;
+    }
+
+    .btn-flex{
+        gap: 3px;
+    }
+
+    .add-list h1{
+        font-size: 1.25rem;
+        margin: 10px 0px;
+    }
+}
